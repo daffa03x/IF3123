@@ -21,7 +21,7 @@
             var email = document.formTugas.email.value;
             var telp = document.formTugas.telp.value;
             var alamat = document.formTugas.alamat.value;
-            var passformat = /(\w).{4,}/g;
+            var passformat = /(\w).{4,}/;
             var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
             if((username.length<3) || (username.length>15)){
